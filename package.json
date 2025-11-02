@@ -1,0 +1,15 @@
+{
+  "name": "travlr-express",
+  "version": "1.0.0",
+  "description": "Module One: Express server serving Travlr Getaways static mockup",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
