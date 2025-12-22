@@ -1,0 +1,12 @@
+<div class="container mt-4" *ngIf="trip">
+
+    <h2>{{ trip.name }}</h2>
+    <p><strong>Code:</strong> {{ trip.code }}</p>
+    <p><strong>Length:</strong> {{ trip.length }} days</p>
+    <p><strong>Price:</strong> ${{ trip.perPerson }}</p>
+    <p><strong>Resort:</strong> {{ trip.resort }}</p>
+    <p>{{ trip.description }}</p>
+  
+    <button class="btn btn-warning" (click)="editTrip()">Edit Trip</button>
+  
+  </div>  

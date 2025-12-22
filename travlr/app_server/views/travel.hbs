@@ -1,0 +1,32 @@
+<section>
+  <h2>Available Trips</h2>
+
+  {{#if trips}}
+    <ul class="trip-list">
+      {{#each trips}}
+        <li class="trip-card">
+          <h3>{{title}}</h3>
+
+          <p><strong>Code:</strong> {{code}}</p>
+          <p><strong>Duration:</strong> {{duration}} days</p>
+          <p><strong>Price:</strong> ${{price}}</p>
+
+          {{!-- Optional fields: only render if present in JSON --}}
+          {{#if description}}
+            <p>{{description}}</p>
+          {{/if}}
+
+          {{#if tags}}
+            <p class="tags">
+              {{#each tags}}
+                <span class="tag">{{this}}</span>
+              {{/each}}
+            </p>
+          {{/if}}
+        </li>
+      {{/each}}
+    </ul>
+  {{else}}
+    <p>No trips found.</p>
+  {{/if}}
+</section>

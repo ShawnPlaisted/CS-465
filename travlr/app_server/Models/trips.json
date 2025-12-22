@@ -1,0 +1,29 @@
+[
+    {
+      "code": "AFR001",
+      "name": "African Safari Adventure",
+      "length": "10 days",
+      "price": 2499,
+      "start": "2026-01-15",
+      "image": "africa-safari.jpg",
+      "description": "Experience wildlife up close with guided safaris, luxury lodges, and breathtaking landscapes."
+    },
+    {
+      "code": "EUR002",
+      "name": "European Capitals Tour",
+      "length": "14 days",
+      "price": 3199,
+      "start": "2026-03-01",
+      "image": "europe-capitals.jpg",
+      "description": "Visit London, Paris, Rome, and Berlin with curated city tours and time to explore on your own."
+    },
+    {
+      "code": "CAR003",
+      "name": "Caribbean Cruise Escape",
+      "length": "7 days",
+      "price": 1799,
+      "start": "2026-02-10",
+      "image": "caribbean-cruise.jpg",
+      "description": "Relax on tropical beaches, enjoy onboard entertainment, and explore multiple island ports."
+    }
+  ]  

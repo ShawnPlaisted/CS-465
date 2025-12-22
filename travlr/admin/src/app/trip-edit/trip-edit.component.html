@@ -1,0 +1,34 @@
+<div class="container mt-4">
+  <h2>Edit Trip</h2>
+
+  <form (ngSubmit)="saveTrip()">
+
+    <div class="mb-3">
+      <label class="form-label">Name</label>
+      <input [(ngModel)]="trip.name" name="name" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Code</label>
+      <input [(ngModel)]="trip.code" name="code" class="form-control" disabled />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Length (days)</label>
+      <input type="number" [(ngModel)]="trip.length" name="length" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Price</label>
+      <input type="number" [(ngModel)]="trip.perPerson" name="perPerson" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Description</label>
+      <textarea [(ngModel)]="trip.description" name="description" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+
+  </form>
+</div>

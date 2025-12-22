@@ -1,0 +1,62 @@
+[
+  {
+    "code": "KZD123",
+    "name": "Kazakhstan Adventure",
+    "length": 7,
+    "start": "2026-03-15T00:00:00.000Z",
+    "resort": "Mountain Eagle Lodge",
+    "perPerson": 1299.99,
+    "image": "kazakhstan-adventure.jpg",
+    "description": "Explore the rugged mountains and rich culture of Kazakhstan on this guided, week-long adventure."
+  },
+  {
+    "code": "BCL001",
+    "name": "Beach Club Getaway",
+    "length": 5,
+    "start": "2026-05-01T00:00:00.000Z",
+    "resort": "Sunset Beach Club",
+    "perPerson": 899.0,
+    "image": "beach-club.jpg",
+    "description": "Relax at an all-inclusive beach resort with ocean views, fine dining, and daily excursions."
+  },
+  {
+    "code": "ALP777",
+    "name": "Alpine Ski Escape",
+    "length": 10,
+    "start": "2026-01-10T00:00:00.000Z",
+    "resort": "Alpine Peaks Resort",
+    "perPerson": 1599.5,
+    "image": "alpine-ski.jpg",
+    "description": "Hit the slopes with professional guides and enjoy cozy evenings by the fire at a world-class ski resort."
+  },
+  {
+    "code": "CRZ555",
+    "name": "Caribbean Cruise Explorer",
+    "length": 8,
+    "start": "2026-02-20T00:00:00.000Z",
+    "resort": "Caribbean Dreamliner",
+    "perPerson": 1399.0,
+    "image": "caribbean-cruise.jpg",
+    "description": "Sail through turquoise waters, visit tropical islands, and enjoy entertainment on a luxury cruise ship."
+  },
+  {
+    "code": "CITY99",
+    "name": "European City Highlights",
+    "length": 12,
+    "start": "2026-04-05T00:00:00.000Z",
+    "resort": "Multiple Boutique Hotels",
+    "perPerson": 2199.99,
+    "image": "europe-city.jpg",
+    "description": "Tour several iconic European cities with guided tours, free days, and curated cultural experiences."
+  },
+  {
+    "code": "SAF001",
+    "name": "African Safari Experience",
+    "length": 9,
+    "start": "2026-06-12T00:00:00.000Z",
+    "resort": "Savanna Plains Lodge",
+    "perPerson": 2499.0,
+    "image": "african-safari.jpg",
+    "description": "Witness wildlife in their natural habitat, with daily game drives and comfortable safari lodge accommodations."
+  }
+]
